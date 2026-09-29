@@ -44,8 +44,9 @@ THEMES = {
 }
 
 LANGUAGE_BLOCKLIST = {
-    "python", "c++", "golang", "typescript",
-    "devtools", "ai infra", "backend", "inference", "training",
+    "html", "css", "scss", "sass", "less", "stylus", "jupyter notebook",
+    "tex", "markdown", "dockerfile", "makefile", "shell", "powershell",
+    "batchfile", "yaml", "json", "xml", "toml", "csv", "tsv",
 }
 
 DETAIL_ROWS = [
@@ -62,7 +63,6 @@ CONTACT_ROWS = [
     ("email", "vaibhaavtiwari@gmail.com"),
     ("linkedin", "linkedin.com/in/vaibhaavtiwari"),
     ("x", "battarchicken"),
-   # ("website", "vaibhaavtiwari"),
 ]
 
 
@@ -162,6 +162,7 @@ def fetch_stats() -> dict[str, object]:
           after: $cursor,
           ownerAffiliations: OWNER,
           isFork: false,
+          privacy: PUBLIC,
           orderBy: {field: UPDATED_AT, direction: DESC}
         ) {
           totalCount
@@ -333,13 +334,11 @@ def render(stats: dict[str, object], theme_name: str) -> str:
         y += 26
 
     y += 14
-    parts.append(row("languages.programming", "<your primary languages>", y))
+    parts.append(row("languages.programming", "python, c++, golang, typescript", y))
     y += 26
-    parts.append(row("focus.stack", str(stats["top_languages"]), y))
+    parts.append(row("interests.software", "devtools, research, rl envs, agents, model archs", y))
     y += 26
-    parts.append(row("interests.software", "<devtools, research, rl envs, agents, model archs>", y))
-    y += 26
-    parts.append(row("interests.offline", "<poker, films, books, stories, homelab tinkering>", y))
+    parts.append(row("interests.offline", "poker, films, books, stories, homelab tinkering", y))
 
     y += 38
     parts.append(section("contact", y))
