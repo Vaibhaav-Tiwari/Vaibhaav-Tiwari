@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1416 692" role="img" aria-labelledby="title desc">
+  <title id="title">Vaibhaav Tiwari — developer profile</title>
+  <desc id="desc">Terminal-inspired developer profile with an ASCII portrait and placeholder personal details.</desc>
+  <style>
+    :root {
+      --background: #0d1117;
+      --border: #30363d;
+      --portrait: #626c76;
+      --heading: #7ee787;
+      --key: #d2a8ff;
+      --value: #79c0ff;
+      --muted: #3d444d;
+    }
+    text { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: 16px; }
+    .portrait { font-family: Menlo, Monaco, "Courier New", monospace; font-size: 8px; font-weight: 700; fill: var(--portrait); letter-spacing: 0; }
+  </style>
+  <rect x="0.5" y="0.5" width="1415" height="691" rx="12" fill="var(--background)" stroke="var(--border)"/>
+  <text class="portrait" xml:space="preserve"><tspan x="26" y="30"> </tspan>
+<tspan x="26" y="38.45"> </tspan>
+<tspan x="26" y="46.9"> </tspan>
+<tspan x="26" y="55.349999999999994"> </tspan>
+<tspan x="26" y="63.8"> </tspan>
+<tspan x="26" y="72.25"> </tspan>
+<tspan x="26" y="80.69999999999999"> </tspan>
+<tspan x="26" y="89.14999999999999"> </tspan>
+<tspan x="26" y="97.6"> </tspan>
+<tspan x="26" y="106.05"> </tspan>
+<tspan x="26" y="114.5">                                         .       .</tspan>
+<tspan x="26" y="122.94999999999999">                                       ..         ...</tspan>
+<tspan x="26" y="131.39999999999998">                                   ...                  .</tspan>
+<tspan x="26" y="139.85">                                   .   .               ..,</tspan>
+<tspan x="26" y="148.29999999999998">                                  ::..,;.         .... ,..</tspan>
+<tspan x="26" y="156.75">                                  :Xi;XX,,,,::.   ...:;:;r,</tspan>
+<tspan x="26" y="165.2">                                   :X3HHAi;:,:i;.,;;,,,;;;,</tspan>
+<tspan x="26" y="173.64999999999998">                                    AS99M522AAXs;: .. ::;;:</tspan>
+<tspan x="26" y="182.1">                                    :3HAr;,XsrXXs;.,.:s2rr,</tspan>
+<tspan x="26" y="190.54999999999998">                                    .G5i;;;sAXXX2s,;,sMGh;        .</tspan>
+<tspan x="26" y="199">                                    ;&amp;h2ss25hh33M3XAi2MMA,</tspan>
+<tspan x="26" y="207.45">                                    ,#H2srX3hh35hh5h555X.</tspan>
+<tspan x="26" y="215.89999999999998">                                     3SM5srA5255M#9@@5si</tspan>
+<tspan x="26" y="224.35">                                     ABM32XX2223MS&amp;@@5,:sr</tspan>
+<tspan x="26" y="232.79999999999998">                                     ,h3Xi::rA3MG9#B@s .sBr   ..   .   .</tspan>
+<tspan x="26" y="241.24999999999997">                                      3Xr;irX23MHHh32..iX#32      .......</tspan>
+<tspan x="26" y="249.7">                                   .;2B5i;##GM33535X; ;sXs5@X,       . .</tspan>
+<tspan x="26" y="258.15">                                  ;H5@&amp;5i X#BSMh35Ar, sAs5@@BGi</tspan>
+<tspan x="26" y="266.59999999999997">                             .....;BH#@Ss ,XMGHMh2i,,X52H&amp;B9#5: .....</tspan>
+<tspan x="26" y="275.04999999999995">                           ,;:.    s@B&amp;&amp;H; :s5hhA;.i3h5G#Ghs.      .:;:</tspan>
+<tspan x="26" y="283.5">                         ,i;,.   ..iGB#@&amp;Hi .:;;,:AHG2AM3X;         .:rr,</tspan>
+<tspan x="26" y="291.95">                       .iri:,.   ,.sGSiGh##hi :AMS#SH3i.r:;      .    :rs,</tspan>
+<tspan x="26" y="300.4">                       :r:;::   .,.XH#55iAhGGhMGHMh53h.;s::      .... .:.X,</tspan>
+<tspan x="26" y="308.84999999999997">                      :ii.,;:  .:..;s3#s,A3hhMMhh3525M;s,.    .   ....., iA.</tspan>
+<tspan x="26" y="317.29999999999995">                     ,sii..:;  :: ,:::Mi i5hhhMMhhh2AM,       .     .... isr.</tspan>
+<tspan x="26" y="325.75">                    .i;ii. .: .;. :::rH: r3MMhhMMMM353        ..    ...  i;;X</tspan>
+<tspan x="26" y="334.2">                    A2 ;;. ., :; .::,XM,,25MHM3hMMMhM2         ..     .  i,;9;</tspan>
+<tspan x="26" y="342.65">                    A9;,;. ., i: ,;:,5A i55hMHhhHHMhH2         .,     .  ;iH9A</tspan>
+<tspan x="26" y="351.09999999999997">                    sSM;;. ,,.i, ,;:,Hi 2353MGM3MGGMH5          ,.    .  s#5B9.</tspan>
+<tspan x="26" y="359.54999999999995">                    XGMX:, ,,:i. .;:;S,:hh33MGM3hGSGG3        iX23i.  . i#35@@X</tspan>
+<tspan x="26" y="368">                    G#sGr, ,::;  .;::5 rMM33MGH33MSSSh.       Asr#BX, .;55sSB9#</tspan>
+<tspan x="26" y="376.45">                   ;@&amp;s3G: ::::  .;::2.XHMh3hGG353MGSM. .     AA;M@3, ,s2rAM5h@i</tspan>
+<tspan x="26" y="384.9">                   h@@3i9r :,;,  .;::r:2GMh3hGSM353MGH,...    :5;5@M. ,Xsr25A2@3</tspan>
+<tspan x="26" y="393.34999999999997">                   #@@9i5s :,;.  .i:;;:5GHhhhGSGh553MM; ..    .5iA@3  .riX52XA9B</tspan>
+<tspan x="26" y="401.79999999999995">                  :&amp;@&amp;&amp;h::.::;   .i;:::3SHhhMGSGMh5222i....   .2is&amp;2  ,;i22XA2H@i</tspan>
+<tspan x="26" y="410.24999999999994">                  A&amp;B@&amp;95;,:;:   .i;;,;MSHMhMGSSHMh55Ai....   .2rrB2  .:sAA2532#5</tspan>
+<tspan x="26" y="418.7">                  GBHH9&amp;GX;;i.   .;;;.rGSGMhhHSSGHMh5X;....   :XriM3  ,iX2552sX&amp;M</tspan>
+<tspan x="26" y="427.15">                 ,#hhMHGM3iii    ,i;;.2S#SHMhMGGGHHMh5s,...   ,XXXAG  :rrrrriiM@H</tspan>
+<tspan x="26" y="435.59999999999997">                  h3r:::iXrr:    ,ii:;3GSSSHMMHGGHMMMh2;..    .isss3, .,,,,:r3@@G</tspan>
+<tspan x="26" y="444.04999999999995">                  .9&amp;Hr,. ;r,    :ii:i3GS#SGHHHGGHHMMh2; .       . ;:   .,iAMS&amp;@S</tspan>
+<tspan x="26" y="452.49999999999994">                   S@#32i,ii.    :;;:r5GS##SSGGGGHHHM32i ..     ...:i  :iX5h9&amp;@@S</tspan>
+<tspan x="26" y="460.95">                  .B&amp;9GA,,r;    .;ss,r5HS###SSGGGGHHM32r....     ..,s.:rXA223MS@S</tspan>
+<tspan x="26" y="469.4">                   X@SXi,,s:    ,;ii:r5HS####SSSGHHMh2si,..      ...s;:;;;irrXASH</tspan>
+<tspan x="26" y="477.84999999999997">                   i@B5i,;r.    :i;::s5MS##SSSSSSGHHM5Xi, ..      ..ir ,:;i5H9&amp;@r</tspan>
+<tspan x="26" y="486.29999999999995">                   3&amp;@9hrr;.   .i;:,:r2MGS#SSSSSSGHHMh2r:...      ..,s.,:sXHB&amp;@9</tspan>
+<tspan x="26" y="494.74999999999994">                   2B9G5ri:    :r;:,,r2MGSSSSSSSSSGHM32r:...       ..r;,;isX5&amp;@5</tspan>
+<tspan x="26" y="503.19999999999993">                    S&amp;Msr;,    ir::,:r2MGS##SSSSSSSGHh2r;....      ..;s,,,:;2@H</tspan>
+<tspan x="26" y="511.65">                    5@92i:.   ,ri,,,:iXhGS####GGSSSSGM2r;....       .,Ai;rAS@&amp;.</tspan>
+<tspan x="26" y="520.0999999999999">                    r@@BA,    ;r;.,,:;i5GSS###SSSSGSGMA:., ...      ..sX;2MB@5</tspan>
+<tspan x="26" y="528.55">                    ,S@#r.   .rr: .:;ir2H##SSSSSSSSSGH3r,,  ...      .:A:rh9@;</tspan>
+<tspan x="26" y="537">                    :GBG;.   :si,..:iir2H###SSSSSSSSSGH3Ai  ...      ..rAAXH9</tspan>
+<tspan x="26" y="545.4499999999999">                    2@9h:.  .is:,. :rrs5HS###SSSGGGGGGHMhA......      .,A3M9#</tspan>
+<tspan x="26" y="553.9">                    ,MHi:   :sr, . .rsX5H#99###SGGGGHHh52X.  ....     ..;3SBi</tspan>
+<tspan x="26" y="562.3499999999999">                      :i:  .is;. .  r22hHS######SHMh32AXrr,  .....    ...5Bs</tspan>
+<tspan x="26" y="570.8">                       i:  :rr:...  ;hS##9######SHMM32Xrii:  ....:.   ...iM</tspan>
+<tspan x="26" y="579.25">                       i:  ;ri. ..  ,iXA2G999999#SSGGHh32Ai   ...::   ...,s</tspan>
+<tspan x="26" y="587.6999999999999">                       i; .ir:  ..       :X23hMGHMMM35AXsr;    ...i.  ....i.</tspan>
+<tspan x="26" y="596.15">                       ,; ,ri,  ..    .,,,,....;:...  ... ...   ..::  ....i,</tspan>
+<tspan x="26" y="604.5999999999999">                        :.:r;.  ,. .. ..,,,,,.,::...,,,,..,...   .,i......;.</tspan>
+<tspan x="26" y="613.05">                        .,:r:. .:  .. .,,,,,,,,,:.,,,,,,,.,. ..  ..;;,...,;</tspan>
+<tspan x="26" y="621.5">                         ,;i:. :; .....,,,,,,,,,,,,,,,,,,,,. ..   .,i:. .;.</tspan>
+<tspan x="26" y="629.9499999999999">                          si:.,;: .,..,::::::,,,:::,,:::::,.  ..  ..;s. :,</tspan>
+<tspan x="26" y="638.4">                          AMi::ii....,,::,,,,,,,::,,,::;;:,....... .:r.s5</tspan>
+<tspan x="26" y="646.8499999999999">                          ;Gh:;;:5r..,:::::::,,. .,,::;;;:,,,. ... ,i;A&amp;G</tspan></text>
+  <text x="616" y="36" fill="var(--heading)" font-weight="700" xml:space="preserve">vaibhaav@github <tspan fill="var(--muted)">──────────────────────────────────────────────────────</tspan></text>
+  <text x="616" y="72" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">currently.building:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your current project&gt;</tspan></text>
+<text x="616" y="99" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">identity.role:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your role / university&gt;</tspan></text>
+<text x="616" y="126" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">identity.location:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your city, country&gt;</tspan></text>
+<text x="616" y="153" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">setup.daily:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your daily machine&gt;</tspan></text>
+<text x="616" y="180" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">tools.ide:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your editor / IDE&gt;</tspan></text>
+<text x="616" y="207" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">tools.shell:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your terminal + shell&gt;</tspan></text>
+
+<text x="616" y="252" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">languages.programming:</tspan><tspan fill="var(--muted)"> . . . . .  </tspan><tspan fill="var(--value)">&lt;language one, language two, language three&gt;</tspan></text>
+<text x="616" y="279" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">languages.stack:</tspan><tspan fill="var(--muted)"> . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;frameworks, platforms, infrastructure&gt;</tspan></text>
+<text x="616" y="306" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">focus.now:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;what you are learning or shipping&gt;</tspan></text>
+
+<text x="616" y="351" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">interests.software:</tspan><tspan fill="var(--muted)"> . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;developer tools, systems, AI, web&gt;</tspan></text>
+<text x="616" y="378" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">interests.offline:</tspan><tspan fill="var(--muted)"> . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;music, photography, lifting, travel&gt;</tspan></text>
+  <text x="616" y="415" fill="var(--muted)" xml:space="preserve">────────────────────────<tspan fill="var(--key)" font-weight="700"> contact </tspan>─────────────────────────</text>
+  <text x="616" y="447" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">email:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;you@example.com&gt;</tspan></text>
+<text x="616" y="474" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">linkedin:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;linkedin.com/in/your-handle&gt;</tspan></text>
+<text x="616" y="501" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">website:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="var(--value)">&lt;your-domain.dev&gt;</tspan></text>
+  <text x="616" y="543" fill="var(--muted)" xml:space="preserve">──────────────────────<tspan fill="var(--key)" font-weight="700"> github activity </tspan>──────────────────────</text>
+  <text x="616" y="572" xml:space="preserve"><tspan fill="var(--muted)">. </tspan><tspan fill="var(--key)">profile:</tspan><tspan fill="var(--muted)"> . . . . . . . . . . . . </tspan><tspan fill="var(--value)">github.com/Vaibhaav-Tiwari</tspan></text>
+</svg>
