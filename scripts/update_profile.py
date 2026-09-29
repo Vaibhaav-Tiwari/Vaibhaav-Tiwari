@@ -50,18 +50,20 @@ LANGUAGE_BLOCKLIST = {
 }
 
 DETAIL_ROWS = [
-    ("currently.building", "<your current project>"),
-    ("identity.role", "<your role / university>"),
-    ("identity.location", "<your city, country>"),
-    ("setup.daily", "<your daily machine>"),
-    ("tools.ide", "<your editor / IDE>"),
-    ("tools.shell", "<your terminal + shell>"),
+    ("currently.building", "Agent Orchestrator"),
+    ("identity.role", "student @ does it really matter?"),
+    ("identity.location", "delhi, india"),
+    ("setup.daily", "macbook air | m5 24gb"),
+    ("setup.server", "ryzen 5 4600H + rtx 3050"),
+    ("tools.ide", "Agent Orchestrator"),
+    ("tools.shell", "ghostty + zsh + herdr"),
 ]
 
 CONTACT_ROWS = [
-    ("email", "<you@example.com>"),
-    ("linkedin", "<linkedin.com/in/your-handle>"),
-    ("website", "<your-domain.dev>"),
+    ("email", "vaibhaavtiwari@gmail.com"),
+    ("linkedin", "linkedin.com/in/vaibhaavtiwari"),
+    ("x", "battarchicken"),
+   # ("website", "<your-domain.dev>"),
 ]
 
 
