@@ -44,9 +44,8 @@ THEMES = {
 }
 
 LANGUAGE_BLOCKLIST = {
-    "html", "css", "scss", "sass", "less", "stylus", "jupyter notebook",
-    "tex", "markdown", "dockerfile", "makefile", "shell", "powershell",
-    "batchfile", "yaml", "json", "xml", "toml", "csv", "tsv",
+    "python", "c++", "golang", "typescript",
+    "devtools", "ai infra", "backend", "inference", "training",
 }
 
 DETAIL_ROWS = [
@@ -63,7 +62,7 @@ CONTACT_ROWS = [
     ("email", "vaibhaavtiwari@gmail.com"),
     ("linkedin", "linkedin.com/in/vaibhaavtiwari"),
     ("x", "battarchicken"),
-   # ("website", "<your-domain.dev>"),
+   # ("website", "vaibhaavtiwari"),
 ]
 
 
@@ -336,13 +335,11 @@ def render(stats: dict[str, object], theme_name: str) -> str:
     y += 14
     parts.append(row("languages.programming", "<your primary languages>", y))
     y += 26
-    parts.append(row("languages.top", str(stats["top_languages"]), y))
+    parts.append(row("focus.stack", str(stats["top_languages"]), y))
     y += 26
-    parts.append(row("focus.now", "<what you are learning or shipping>", y))
-    y += 40
-    parts.append(row("interests.software", "<developer tools, systems, AI, web>", y))
+    parts.append(row("interests.software", "<devtools, research, rl envs, agents, model archs>", y))
     y += 26
-    parts.append(row("interests.offline", "<music, photography, lifting, travel>", y))
+    parts.append(row("interests.offline", "<poker, films, books, stories, homelab tinkering>", y))
 
     y += 38
     parts.append(section("contact", y))
