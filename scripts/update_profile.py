@@ -336,7 +336,7 @@ def render(stats: dict[str, object], theme_name: str) -> str:
     y += 14
     parts.append(row("languages.programming", "python, c++, golang, typescript", y))
     y += 26
-    parts.append(row("focus.stack", str(stats["top_languages"]), y))
+    parts.append(row("focus.stack", "devtools, ai infra, backend, inference, training", y))
     y += 26
     parts.append(row("interests.software", "devtools, research, rl envs, agents, model archs", y))
     y += 26
