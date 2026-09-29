@@ -50,18 +50,19 @@ LANGUAGE_BLOCKLIST = {
 }
 
 DETAIL_ROWS = [
-    ("currently.building", "<your current project>"),
-    ("identity.role", "<your role / university>"),
-    ("identity.location", "<your city, country>"),
-    ("setup.daily", "<your daily machine>"),
-    ("tools.ide", "<your editor / IDE>"),
-    ("tools.shell", "<your terminal + shell>"),
+    ("currently.building", "Agent Orchestrator"),
+    ("identity.role", "student @ does it really matter?"),
+    ("identity.location", "delhi, india"),
+    ("setup.daily", "macbook air | m5 24gb"),
+    ("setup.server", "ryzen 5 4600H + rtx 3050"),
+    ("tools.ide", "Agent Orchestrator"),
+    ("tools.shell", "ghostty + zsh + herdr"),
 ]
 
 CONTACT_ROWS = [
-    ("email", "<you@example.com>"),
-    ("linkedin", "<linkedin.com/in/your-handle>"),
-    ("website", "<your-domain.dev>"),
+    ("email", "vaibhaavtiwari@gmail.com"),
+    ("linkedin", "linkedin.com/in/vaibhaavtiwari"),
+    ("x", "battarchicken"),
 ]
 
 
@@ -161,6 +162,7 @@ def fetch_stats() -> dict[str, object]:
           after: $cursor,
           ownerAffiliations: OWNER,
           isFork: false,
+          privacy: PUBLIC,
           orderBy: {field: UPDATED_AT, direction: DESC}
         ) {
           totalCount
@@ -332,15 +334,13 @@ def render(stats: dict[str, object], theme_name: str) -> str:
         y += 26
 
     y += 14
-    parts.append(row("languages.programming", "<your primary languages>", y))
+    parts.append(row("languages.programming", "python, c++, golang, typescript", y))
     y += 26
-    parts.append(row("languages.top", str(stats["top_languages"]), y))
+    parts.append(row("focus.stack", str(stats["top_languages"]), y))
     y += 26
-    parts.append(row("focus.now", "<what you are learning or shipping>", y))
-    y += 40
-    parts.append(row("interests.software", "<developer tools, systems, AI, web>", y))
+    parts.append(row("interests.software", "devtools, research, rl envs, agents, model archs", y))
     y += 26
-    parts.append(row("interests.offline", "<music, photography, lifting, travel>", y))
+    parts.append(row("interests.offline", "poker, films, books, stories, homelab tinkering", y))
 
     y += 38
     parts.append(section("contact", y))
