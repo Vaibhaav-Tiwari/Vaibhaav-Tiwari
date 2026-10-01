@@ -149,6 +149,7 @@ def fetch_stats() -> dict[str, object]:
       user(login: $login) {
         id
         followers { totalCount }
+        pullRequests(first: 1, states: MERGED) { totalCount }
         repositoriesContributedTo(
           first: 1,
           contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]
@@ -234,6 +235,7 @@ def fetch_stats() -> dict[str, object]:
         "contributed": user["repositoriesContributedTo"]["totalCount"],
         "stars": sum(repo["stargazerCount"] for repo in repos),
         "followers": user["followers"]["totalCount"],
+        "merged_prs": user["pullRequests"]["totalCount"],
         "commits_year": contribution_commits,
         "commits_default": default_branch_commits,
         "loc_net": additions - deletions,
@@ -360,7 +362,10 @@ def render(stats: dict[str, object], theme_name: str) -> str:
         "followers", str(stats["followers"]), y
     ))
     y += 26
-    parts.append(row("default-branch commits", f'{stats["commits_default"]:,}', y))
+    parts.append(double_row(
+        "merged PRs", str(stats["merged_prs"]),
+        "default commits", f'{stats["commits_default"]:,}', y
+    ))
     y += 26
 
     net = int(stats["loc_net"])
