@@ -1,5 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark_mode.svg?v=1790872760">
-  <source media="(prefers-color-scheme: light)" srcset="assets/light_mode.svg?v=1790872760">
-  <img alt="Vaibhaav Tiwari live developer profile" src="assets/dark_mode.svg?v=1790872760">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark_mode.svg?v=1790894569">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light_mode.svg?v=1790894569">
+  <img alt="Vaibhaav Tiwari live developer profile" src="assets/dark_mode.svg?v=1790894569">
 </picture>
