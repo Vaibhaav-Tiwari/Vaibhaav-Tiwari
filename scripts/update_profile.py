@@ -143,6 +143,53 @@ def fetch_repo_history(owner: str, name: str, user_id: str) -> tuple[int, int, i
         cursor = history["pageInfo"]["endCursor"]
 
 
+def fetch_external_merged_pr_loc() -> tuple[int, int, int]:
+    """Sum final diffs for merged PRs into repositories the user does not own.
+
+    Owned repositories are already covered by the authored-commit walk above;
+    excluding them here prevents counting the same changes twice. PR-level
+    additions/deletions still count when a maintainer squashes or rewrites the
+    merge commit and the commit author is no longer the original contributor.
+    """
+    query = """
+    query($login: String!, $cursor: String) {
+      user(login: $login) {
+        pullRequests(
+          first: 100,
+          after: $cursor,
+          states: MERGED,
+          orderBy: {field: UPDATED_AT, direction: DESC}
+        ) {
+          pageInfo { hasNextPage endCursor }
+          nodes {
+            additions
+            deletions
+            repository { owner { login } }
+          }
+        }
+      }
+    }
+    """
+    additions = deletions = merged_prs = 0
+    cursor = None
+    while True:
+        data = graphql(query, login=USER, cursor=cursor)["user"]
+        if data is None:
+            break
+        page = data["pullRequests"]
+        for pull_request in page["nodes"]:
+            merged_prs += 1
+            repository = pull_request.get("repository")
+            owner = repository and repository.get("owner")
+            if owner and owner["login"].casefold() != USER.casefold():
+                additions += pull_request["additions"]
+                deletions += pull_request["deletions"]
+        if not page["pageInfo"]["hasNextPage"]:
+            break
+        cursor = page["pageInfo"]["endCursor"]
+    return additions, deletions, merged_prs
+
+
 def fetch_stats() -> dict[str, object]:
     query = """
     query($login: String!, $cursor: String) {
@@ -226,6 +273,9 @@ def fetch_stats() -> dict[str, object]:
     additions = sum(values[1] for values in new_cache.values())
     deletions = sum(values[2] for values in new_cache.values())
     default_branch_commits = sum(values[3] for values in new_cache.values())
+    external_pr_additions, external_pr_deletions, merged_prs = fetch_external_merged_pr_loc()
+    total_additions = additions + external_pr_additions
+    total_deletions = deletions + external_pr_deletions
     contribution_commits = (
         user["contributionsCollection"]["totalCommitContributions"]
         + user["contributionsCollection"]["restrictedContributionsCount"]
@@ -235,12 +285,16 @@ def fetch_stats() -> dict[str, object]:
         "contributed": user["repositoriesContributedTo"]["totalCount"],
         "stars": sum(repo["stargazerCount"] for repo in repos),
         "followers": user["followers"]["totalCount"],
-        "merged_prs": user["pullRequests"]["totalCount"],
+        "merged_prs": merged_prs,
         "commits_year": contribution_commits,
         "commits_default": default_branch_commits,
-        "loc_net": additions - deletions,
-        "loc_add": additions,
-        "loc_del": deletions,
+        "loc_net": total_additions - total_deletions,
+        "loc_add": total_additions,
+        "loc_del": total_deletions,
+        "loc_direct_add": additions,
+        "loc_direct_del": deletions,
+        "loc_pr_add": external_pr_additions,
+        "loc_pr_del": external_pr_deletions,
         "top_languages": top_language_text,
     }
 
