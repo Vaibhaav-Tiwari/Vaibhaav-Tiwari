@@ -50,7 +50,7 @@ LANGUAGE_BLOCKLIST = {
 }
 
 DETAIL_ROWS = [
-    ("currently.building", "Agent Orchestrator"),
+    ("currently.building", "Orchestrator.inc"),
     ("identity.role", "student @ does it really matter?"),
     ("identity.location", "delhi, india"),
     ("setup.daily", "macbook air | m5 24gb"),
