@@ -6,15 +6,15 @@ Vaibhaav-Tiwari/DigitRecognitionNumpy	f2c23db9d6c6ae8a6d96908c4c726c865258e6b9	2
 Vaibhaav-Tiwari/FirstWork-OA	16afd73a6c7666f61dead6d2cc364208702fbfe5	0	0	0
 Vaibhaav-Tiwari/HSI-data-and-codes	ee841bee050f9ff36746d7266dbd6dec32be2a87	6	3	8
 Vaibhaav-Tiwari/My-CSES-Solutions-and-Approaches-	f8a3e0d0fd9785274e97c7ad353c6fbfa2b78e8c	257	3	9
-Vaibhaav-Tiwari/Othello	6215696f924383fa7354505cce8896781f040192	102	0	1
+Vaibhaav-Tiwari/Othello	a26fe9869fcd7fb342c921ef1702c4a551803cd0	104	1	2
 Vaibhaav-Tiwari/RL-and-world-models	10151d1afa597a92840d275a34bcbaa4eecc8a8c	0	0	0
-Vaibhaav-Tiwari/Vaibhaav-Tiwari	c38be3083cea0e5944f2492e5cd871db90b5787b	1485	611	11
+Vaibhaav-Tiwari/Vaibhaav-Tiwari	b663aa92fd1bba0e38cba257bf1dd64b400fa0e6	1485	611	11
 Vaibhaav-Tiwari/ae-lab	04c3235f1456965618c37dda204c0d2860b70f96	0	0	0
 Vaibhaav-Tiwari/ae-with-gdpo-implementation	086f1c0c3e5332d7b77c9f9ddbde9204780148b7	0	0	0
 Vaibhaav-Tiwari/agentevolver_implementation	c92fec15d2551e7e2a23a9ec1ea68161b3a55214	0	0	0
 Vaibhaav-Tiwari/ao-trial	b084682072c970d8abfda3c86507dc6715ba9417	622	0	2
 Vaibhaav-Tiwari/caust-preliminary	ad5d2de6267625f29d8d5245bb9430bb6b1beb88	0	0	0
-Vaibhaav-Tiwari/chip-design-groundup	6da539d6573cc6eb80190cd0e6025b358f85bc6f	7084	41	31
+Vaibhaav-Tiwari/chip-design-groundup	d5d93ba9cb23466585f9416cabf3bc98690da43c	7084	41	31
 Vaibhaav-Tiwari/docs	2e1e15f4f5b146528621bf510bae246207ee8dae	294	0	1
 Vaibhaav-Tiwari/fly-doom-jev	565e6ccd757ff794ead643dac7359efe67ec9db2	0	0	0
 Vaibhaav-Tiwari/histomoe-baseline	d335420df6fdc041b04fbb1c4b7bc7395c32e614	0	0	0
@@ -22,7 +22,7 @@ Vaibhaav-Tiwari/implementing-attention-is-all-you-need	4c433d818eccf2894a31cadec
 Vaibhaav-Tiwari/implementing-micrograd	d6b4b96e9bdc6d83e3f408f966524382a7641377	0	0	0
 Vaibhaav-Tiwari/learning-apache-kafka	172572d1c693e2e45ff1b247982a5777a1ae123e	66701	0	1
 Vaibhaav-Tiwari/mini-learning-projects	28eef174fad34d241411d3d2696502503f8db7d5	0	0	0
-Vaibhaav-Tiwari/neatlogs-hack	8a6ce511adffab41f6d9b6b05251ea64c1025db7	91527	8194	342
+Vaibhaav-Tiwari/neatlogs-hack	3170eefbd6911bae555462d34c4358171a1bdd73	94441	9390	358
 Vaibhaav-Tiwari/neatlogs-hackathon	925a255e52032c7d10f9c37b4fd5ffce48c02f5f	0	0	0
 Vaibhaav-Tiwari/neural-collapse-trial	ab40e3634a6ce6cf63747cea06fb5bad8cda117e	0	0	0
 Vaibhaav-Tiwari/optimgrad	59839aaf3b356a94f7978cdf53197b8f6ce737d8	4	2	2
